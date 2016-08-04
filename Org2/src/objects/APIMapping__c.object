@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Api key with field name mapping list</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FieldName__c</fullName>
+        <externalId>false</externalId>
+        <label>FieldName</label>
+        <length>180</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>APIMapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

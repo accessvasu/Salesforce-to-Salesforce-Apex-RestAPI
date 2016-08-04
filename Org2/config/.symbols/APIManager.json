@@ -1,0 +1,1546 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p50000003dQsbAAE",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "APIException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 22
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "APIException",
+                "references": [],
+                "type": "APIException"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 290
+                    },
+                    "modifiers": [
+                        "global"
+                    ],
+                    "name": "RestResponseHandler",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "RestResponseHandler",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 285
+                    },
+                    "modifiers": [
+                        "global"
+                    ],
+                    "name": "code",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 286
+                    },
+                    "modifiers": [
+                        "global"
+                    ],
+                    "name": "msg",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 287
+                    },
+                    "modifiers": [
+                        "global"
+                    ],
+                    "name": "objId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 288
+                    },
+                    "modifiers": [
+                        "global"
+                    ],
+                    "name": "data",
+                    "references": [],
+                    "type": "ResponseDataSet"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 284
+                },
+                "modifiers": [
+                    "global"
+                ],
+                "name": "RestResponseHandler",
+                "references": [],
+                "type": "RestResponseHandler"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 297
+                    },
+                    "modifiers": [
+                        "virtual",
+                        "protected"
+                    ],
+                    "name": "recordCount",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "ResponseDataSet",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 26,
+                    "line": 294
+                },
+                "modifiers": [
+                    "virtual",
+                    "global"
+                ],
+                "name": "ResponseDataSet",
+                "references": [],
+                "type": "ResponseDataSet"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 303
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "AccountInformation",
+                    "parameters": [
+                        {
+                            "name": "r",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "AccountInformation",
+            "namespace": null,
+            "parentClass": "ResponseDataSet",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 302
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "output",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 301
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AccountInformation",
+                "references": [],
+                "type": "AccountInformation"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 303
+                    },
+                    "modifiers": [],
+                    "name": "r",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 311
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ListOfAccounts",
+                    "parameters": [
+                        {
+                            "name": "r",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ListOfAccounts",
+            "namespace": null,
+            "parentClass": "ResponseDataSet",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 310
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "output",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 309
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ListOfAccounts",
+                "references": [],
+                "type": "ListOfAccounts"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 311
+                    },
+                    "modifiers": [],
+                    "name": "r",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 322
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Bean",
+                    "parameters": [
+                        {
+                            "name": "a",
+                            "type": "String"
+                        },
+                        {
+                            "name": "n",
+                            "type": "String"
+                        },
+                        {
+                            "name": "an",
+                            "type": "String"
+                        },
+                        {
+                            "name": "isA",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Bean",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 318
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "accId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 319
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "accName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 320
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "accNumber",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 321
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "isActive",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 317
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Bean",
+                "references": [],
+                "type": "Bean"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 322
+                    },
+                    "modifiers": [],
+                    "name": "a",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 322
+                    },
+                    "modifiers": [],
+                    "name": "n",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 48,
+                        "line": 322
+                    },
+                    "modifiers": [],
+                    "name": "an",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 322
+                    },
+                    "modifiers": [],
+                    "name": "isA",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p50000003dQsbAAE",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "HttpGet"
+                }
+            ],
+            "location": {
+                "column": 39,
+                "line": 34
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "get",
+            "parameters": [],
+            "references": [],
+            "returnType": "RestResponseHandler",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "HttpPost"
+                }
+            ],
+            "location": {
+                "column": 39,
+                "line": 105
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "create",
+            "parameters": [],
+            "references": [],
+            "returnType": "RestResponseHandler",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 151
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "logException",
+            "parameters": [
+                {
+                    "name": "req",
+                    "type": "String"
+                },
+                {
+                    "name": "dt",
+                    "type": "Datetime"
+                },
+                {
+                    "name": "errMsg",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 163
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "logWebService",
+            "parameters": [
+                {
+                    "name": "inputData",
+                    "type": "String"
+                },
+                {
+                    "name": "respData",
+                    "type": "String"
+                },
+                {
+                    "name": "dt",
+                    "type": "Datetime"
+                },
+                {
+                    "name": "clientApp",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 175
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "formatGetResponse",
+            "parameters": [
+                {
+                    "name": "recs",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "ResponseDataSet",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 181
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "formatCreateResponse",
+            "parameters": [
+                {
+                    "name": "a",
+                    "type": "Account"
+                }
+            ],
+            "references": [],
+            "returnType": "ResponseDataSet",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 184
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "IsNullorEmpty",
+            "parameters": [
+                {
+                    "name": "str",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 189
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "isValidateInput",
+            "parameters": [
+                {
+                    "name": "reqObj",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 194
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupAccObj",
+            "parameters": [
+                {
+                    "name": "reqObj",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "Account",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 203
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "persistDataObj",
+            "parameters": [
+                {
+                    "name": "accRec",
+                    "type": "Account"
+                }
+            ],
+            "references": [],
+            "returnType": "Account",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 224
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "checkAccountAvailability",
+            "parameters": [
+                {
+                    "name": "accName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 243
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "retrieveRecords",
+            "parameters": [
+                {
+                    "name": "LimitSize",
+                    "type": "Integer"
+                },
+                {
+                    "name": "OffsetSize",
+                    "type": "Integer"
+                },
+                {
+                    "name": "accName",
+                    "type": "String"
+                },
+                {
+                    "name": "accNum",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 268
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "findAccounts",
+            "parameters": [
+                {
+                    "name": "accId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "APIManager",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 6
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "NO_RECORD_FOUND",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 7
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "SUCCESS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 8
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "PARTIAL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 9
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "NO_VALID",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 10
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "LIMIT_SIZE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 11
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "OFFSET",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 12
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "GET_ACCOUNTS_SERVICE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 13
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "SUCCESS_STR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 14
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "LOG_STR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 15
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "ERROR_STR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 16
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "EXCEPTION_STR",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 18
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "finalResponse",
+            "references": [],
+            "type": "RestResponseHandler"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 19
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "g_accRec",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 20
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "startTime",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 24
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "apiPair",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "RestResource"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 5
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "APIManager",
+        "references": [],
+        "type": "APIManager"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "RestRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "RestResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "accId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "queryParams",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "dataRes",
+            "references": [],
+            "type": "ResponseDataSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "accList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "limitSize",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "pageIndex",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "accName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "accNum",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "RestRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "accId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 111
+            },
+            "modifiers": [],
+            "name": "reqBody",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "reqObj",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "accRecs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 127
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "resObj",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "errMsg",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "inputData",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "respData",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 94,
+                "line": 163
+            },
+            "modifiers": [],
+            "name": "clientApp",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 175
+            },
+            "modifiers": [],
+            "name": "recs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 177
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 181
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 184
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "reqObj",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "reqObj",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 195
+            },
+            "modifiers": [],
+            "name": "setupAccObj",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "key",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 203
+            },
+            "modifiers": [],
+            "name": "accRec",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "accObj",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 224
+            },
+            "modifiers": [],
+            "name": "accName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "isAvailable",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "soqlStr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "aList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "LimitSize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 77,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "OffsetSize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 96,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "accName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 112,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "accNum",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "queryStr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 260
+            },
+            "modifiers": [],
+            "name": "recList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "accId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "aList",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

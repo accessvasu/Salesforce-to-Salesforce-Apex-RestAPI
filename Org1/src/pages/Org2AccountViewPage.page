@@ -1,0 +1,56 @@
+<apex:page controller="Org2AccountViewController" action="{!searchAcc}" sidebar="false">
+    <script type="text/javascript">
+    window.onload=function() {
+        // document.getElementById("{!$Component.theInput.theAccName.accName}").focus();
+    }   
+    </script>
+    <apex:form >
+        <apex:pageBlock id="theInput" title="ORG2 Account Details To Search">
+            <apex:pageblockSection id="theAccName">
+                <apex:outputLabel value="Org2 Account Name"></apex:outputLabel>
+                <apex:inputText value="{!org2AccName}" required="false" id="accName"/>
+                <apex:outputLabel value="Org2 Account Number"></apex:outputLabel>                
+                <apex:inputText value="{!org2AccNumber}"/>
+            </apex:pageblockSection>
+            <apex:pageblockButtons location="bottom">
+                <apex:commandButton value="Search" action="{!searchAcc}" />
+            </apex:pageblockButtons>  
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="ORG2 Account Results" id="noRec" rendered="{! IF( accountList != null && accountList.size ==0 , true, false)}" >
+            <apex:outputPanel >
+                <h1>No Records Found </h1>
+            </apex:outputPanel>
+        </apex:pageBlock>
+        
+        
+        <apex:pageBlock title="ORG2 Account Results" id="details" rendered="{! IF( accountList != null && accountList.size >0, true, false)}" >
+            
+            <apex:pageBlockTable value="{!accountList}" var="a">
+                <!--apex:column headerValue="Account Name">
+                    <apex:outputLink target="_blank" value="/{!a.id}">{!a.accName}</apex:outputLink> 
+                </apex:column-->   
+                <!--  If you want facet style you can add like this.
+                <apex:column >
+                <apex:facet name="header">Link Name</apex:facet>
+                <apex:outputLink target="_blank" value="/{!a.id}">{!a.Name}</apex:outputLink> 
+                </apex:column>
+                -->
+                <apex:column value="{!a.accId}" headerValue="Org2 Account Id"/>   			
+                <apex:column value="{!a.accNumber}" headerValue="Account Number"/>  
+                <apex:column value="{!a.isActive}" headerValue="Is Active"/>  
+                <apex:column value="{!a.accName}" headerValue="Account Name"/>
+                <!--apex:column value="{!a.website}" headerValue="Web"/-->    
+            </apex:pageBlockTable>
+            
+            <apex:pageblockButtons >
+                <apex:commandButton value="First Page" rerender="details" action="{!FirstPage}" disabled="{!prev}"/>
+                <apex:commandButton value="Previous" rerender="details" action="{!previous}" disabled="{!prev}"/>
+                <apex:commandButton value="Next" rerender="details" action="{!next}" disabled="{!nxt}"/>
+                <apex:commandButton value="Last Page" rerender="details" action="{!LastPage}" disabled="{!nxt}"/>
+            </apex:pageblockButtons>
+            
+        </apex:pageBlock>
+        
+    </apex:form>
+</apex:page>

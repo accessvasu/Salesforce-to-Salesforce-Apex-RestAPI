@@ -1,0 +1,17 @@
+{
+    "projectName": "Org1",
+    "username": "vasu@codesample.com.test",
+    "id": "7051a430-59ff-11e6-a2e4-f38085d76e15",
+    "namespace": "",
+    "environment": "production",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "/Users/yeahhbro/Documents/SFDC Projects",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "CustomObject",
+        "StaticResource"
+    ]
+}
